@@ -1,0 +1,45 @@
+.search
+    margin: 0 auto
+    width: 80%
+    min-height: 100vh
+    background-color: #ff7777
+    padding: 25px 50px
+    &__form
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 100%
+        margin: 0 0 25px
+    &-query
+        padding: 5px 15px
+        border-radius: 15px
+        border: none
+    &__btn
+        border-radius: 15px
+        border: none
+        padding: 5px 15px
+        margin: 0 0 0 15px
+        cursor: pointer
+        &:hover
+            box-shadow: 0 0 5px #777777
+    &__result
+        width: 80%
+        list-style: none
+        margin: 0 auto
+        li
+            display: flex
+            justify-content: space-between
+            padding: 5px 0
+            transition: all .4s linear
+            &:hover
+                border-bottom: 1px solid #000
+                font-size: 20px
+            a
+                color: #000
+                &:hover
+                    color: #fff
+    &__counter
+        text-align: center
+        text-transform: uppercase
+        font-size: 24px
+        margin: 0 0 30px
